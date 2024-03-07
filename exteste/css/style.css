@@ -1,0 +1,124 @@
+:root{
+    --cor1: #F6F5F5;
+    --cor2: #d9f6ff;
+    --cor3: #ffef94;
+    --cor4: #0C359E;
+    --cor5: #35374B;
+    --cor6: #FBA834;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.menu{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: var(--cor5);
+    padding: 8px;
+}
+.logo{
+    width: 45px;
+    border-radius: 50%;
+}
+.lista{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 40px;
+}
+.lista-i{
+    margin-right: 24px;
+    list-style: none;
+}
+.lista-i-t{
+    text-decoration: none;
+    color: var(--cor6);
+    font-size: 27px;
+    
+}
+.header-box{
+    height: 91vh;
+    background-image: url(../img/fig2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    
+}
+.header-t{
+    font-size: 50px;
+    color: var(--cor2);
+    margin-left: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 40%;
+    text-align: center;
+}
+.section-container{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.color5{
+    background-color: var(--cor5);
+}
+.color3{
+    background-color: var(--cor3);
+}
+.t2{
+    font-size: 45px;
+    color: var(--cor6);
+    margin-bottom: 10px;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+.p{
+    color: var(--cor1);
+    margin-top: 5px;
+    margin-bottom: 25px;
+    font-size: 17px;
+    line-height: 20px;
+}
+.w-23{
+    width: 23.5%;
+}
+
+.background{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 24vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.my-15{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.t3{
+    color: var(--cor2);
+    font-size: 40px;
+    font-family: monospace
+}
+.alatreon{
+    background-image: url(../img/alatreon.jpg);
+}
+.kirin {
+    background-image: url(../img/kirin.jpeg);
+}
+.nergigante{
+    background-image: url(../img/nergigante.jpeg);
+}
+.nome{
+    text-align: center;
+    font-size: 37px;
+}
